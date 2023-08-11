@@ -1,0 +1,20 @@
+{
+  "name": "paysis-tests-pw",
+  "version": "1.0.0",
+  "description": "TypeScript + Playwright API tests examples for Paysis project",
+  "scripts": {
+    "test": "playwright test",
+    "format": "prettier ./ --write --list-different",
+    "lint": "prettier ./ --check"
+  },
+  "author": "Dmitrii Bormotov",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "1.36.2",
+    "dotenv": "16.3.1",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "prettier": "3.0.1"
+  }
+}
